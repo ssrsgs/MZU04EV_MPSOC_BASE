@@ -102,6 +102,10 @@ void TTC_Setup_Intr_System(XScuGic *GicInstancePtr,XTtcPs *TTCInstancePtr, u16 T
 
 
 
+
+
+
+
 static void TickHandler(void *CallBackRef, u32 StatusEvent)
 {
 
